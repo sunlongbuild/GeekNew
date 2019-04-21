@@ -17,7 +17,7 @@ import java.util.ArrayList;
  */
 public class MyGoldPagerAdapter extends FragmentStatePagerAdapter {
     private ArrayList<BaseFragment> list;
-//
+
     public MyGoldPagerAdapter(FragmentManager fm,ArrayList<BaseFragment> list) {
         super(fm);
         this.list = list;
